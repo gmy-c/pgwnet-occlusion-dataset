@@ -1,0 +1,21 @@
+{
+  "source": "Author-uploaded construction bundle",
+  "archive_sha256": "eb5c999a634a79876a9c9aeed00d9ab9ea08ac6a595e124c24e2c2f66aa9376e",
+  "original_file_sha256": {
+    "generation_code/build_occlusion_only.py": "58516242f9ad069d6b0813f7d073ea807359cfb12bb38ceda24145654ec3ebf9",
+    "generation_code/CODE_PROVENANCE.json": "23e163e5721aa65b224f906c0555932aa54918a7bc9a5e4114476ba750a06dc0",
+    "generation_code/ORIGINAL_BUILD_COMPLETE.json": "f8aa86d526b69c9fde485e7a4a22864312a439483479f0392ca30ad0a226a53b",
+    "generation_code/partitions.json": "9eca5ee5c1188dd58b82977a6afef1b184d6f7794477be7d23f4ee1bfa100eae",
+    "generation_code/README.md": "0bd442c782f4ce70003127399020eb485964f90828df3354581a5e38807b0c30",
+    "generation_code/requirements.txt": "069cdcac83ea6a1dcc324ed76aca7310f403747cac18cbd120c236932cfe1662",
+    "generation_code/original_runtime/audit_annotations.py": "e0f2c38a1bb6b6d1c733fa20af801445f5b10f527730f0abe304398ff654baec",
+    "generation_code/original_runtime/build_lite.py": "4cd1389fe15da6e98c5a333d9069791a7127cfe377dae54c17e566b7992cde1f",
+    "generation_code/original_runtime/evaluate_branch.py": "65121fbcd9405b80a4178a0a2182c7bcab5e49bf00312481faea9cd4f46ae676",
+    "generation_code/original_runtime/lite_dataset.py": "56080682915f9d3887e7344c736e0777792e4dd9f117fddf9e10e36b8484f7cc",
+    "generation_code/original_runtime/lite_operators.py": "1ae337a7cf51891f8e4ef0ba7497874e1e4c2ac8305636461d21e605442831cd",
+    "generation_code/original_runtime/make_branch_config.py": "e4b874577e3a175e5bfe0632b6ac93bbfd35a873216b32ec6aa24c326c90e955",
+    "generation_code/original_runtime/validate_branch.py": "6774e89c846412e3932299bc61cff1d1e8b59a65315e612002cb09b27e5e2cd2",
+    "generation_code/legacy/tools/build_protocol.py": "e6cec1844ff1c237d1eb4abf192568fcd45d09bf44d63e6828f5b1b1a4c99300"
+  },
+  "active_adapter_change": "H upper endpoint changed from exclusive to inclusive at 0.65, following the manuscript; historical runtime files unchanged"
+}

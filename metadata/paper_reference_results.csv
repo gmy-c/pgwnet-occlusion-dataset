@@ -1,0 +1,9 @@
+level,method,target_r50,target_r75,target_r50_95,target_mask_miou,target_boundary_miou
+clean,RTMDet-R,58.33,41.33,38.77,47.72,36.61
+clean,PGWNet,62.00,43.00,41.13,50.53,38.86
+light,RTMDet-R,51.67,35.00,32.60,41.39,30.72
+light,PGWNet,55.00,38.33,35.57,44.62,34.28
+moderate,RTMDet-R,43.33,26.67,24.80,33.77,25.11
+moderate,PGWNet,47.33,31.33,29.40,38.11,29.28
+heavy,RTMDet-R,24.67,10.33,12.83,18.87,14.68
+heavy,PGWNet,30.33,18.33,17.03,22.29,18.03

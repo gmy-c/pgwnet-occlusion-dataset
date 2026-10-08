@@ -1,0 +1,14 @@
+{
+  "verified_original_runtime_sha256": {
+    "build_lite.py": "4cd1389fe15da6e98c5a333d9069791a7127cfe377dae54c17e566b7992cde1f",
+    "evaluate_branch.py": "65121fbcd9405b80a4178a0a2182c7bcab5e49bf00312481faea9cd4f46ae676",
+    "lite_dataset.py": "56080682915f9d3887e7344c736e0777792e4dd9f117fddf9e10e36b8484f7cc",
+    "lite_operators.py": "1ae337a7cf51891f8e4ef0ba7497874e1e4c2ac8305636461d21e605442831cd",
+    "make_branch_config.py": "e4b874577e3a175e5bfe0632b6ac93bbfd35a873216b32ec6aa24c326c90e955",
+    "validate_branch.py": "6774e89c846412e3932299bc61cff1d1e8b59a65315e612002cb09b27e5e2cd2",
+    "audit_annotations.py": "e0f2c38a1bb6b6d1c733fa20af801445f5b10f527730f0abe304398ff654baec"
+  },
+  "legacy_sha256": "e6cec1844ff1c237d1eb4abf192568fcd45d09bf44d63e6828f5b1b1a4c99300",
+  "legacy_source": "for_server_16/tools/build_protocol.py",
+  "adapter": "new extraction, syntax checked; full regeneration not run"
+}

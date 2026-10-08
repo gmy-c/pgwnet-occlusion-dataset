@@ -1,0 +1,70 @@
+{
+  "protocol": "bdd-lite-v1.0",
+  "status": "complete",
+  "counts": {
+    "train_appearance": 6996,
+    "val_low_exposure_noise_L": 998,
+    "val_low_exposure_noise_M": 998,
+    "val_low_exposure_noise_H": 998,
+    "val_motion_blur_L": 998,
+    "val_motion_blur_M": 998,
+    "val_motion_blur_H": 998,
+    "val_resolution_loss_L": 998,
+    "val_resolution_loss_M": 998,
+    "val_resolution_loss_H": 998,
+    "val_rain_streak_L": 998,
+    "val_rain_streak_M": 998,
+    "val_rain_streak_H": 998,
+    "train_occlusion": 1917,
+    "val_occlusion_dev_L": 60,
+    "val_occlusion_dev_M": 60,
+    "val_occlusion_dev_H": 60,
+    "val_occlusion_report_L": 300,
+    "val_occlusion_report_M": 300,
+    "val_occlusion_report_H": 300,
+    "val_compound_low_exposure_noise_occlusion_M": 300,
+    "val_compound_motion_blur_occlusion_M": 300
+  },
+  "main_eval_views_including_clean": 13874,
+  "full_eval_with_compound": 14474,
+  "train_pool_views": 15909,
+  "extra_occlusion_dev_views": 180,
+  "source_images": {
+    "train": 6996,
+    "val": 998
+  },
+  "new_manual_annotations": 0,
+  "train_occlusion_annotation_checks": 30476,
+  "new_occlusion_annotation_checks": 17565,
+  "source_annotation_sha256": {
+    "train": "e14a24d4608648ced21e18c2326d4d43b1bc71c7b8ca2c44d936b7acc065fff2",
+    "val": "ea781d49f00429429b769960cc7146d99c97e4e385901f0e78faf19b502b23c2"
+  },
+  "code_sha256": {
+    "build_lite.py": "4cd1389fe15da6e98c5a333d9069791a7127cfe377dae54c17e566b7992cde1f",
+    "evaluate_branch.py": "65121fbcd9405b80a4178a0a2182c7bcab5e49bf00312481faea9cd4f46ae676",
+    "lite_dataset.py": "56080682915f9d3887e7344c736e0777792e4dd9f117fddf9e10e36b8484f7cc",
+    "lite_operators.py": "1ae337a7cf51891f8e4ef0ba7497874e1e4c2ac8305636461d21e605442831cd",
+    "make_branch_config.py": "e4b874577e3a175e5bfe0632b6ac93bbfd35a873216b32ec6aa24c326c90e955",
+    "validate_branch.py": "6774e89c846412e3932299bc61cff1d1e8b59a65315e612002cb09b27e5e2cd2",
+    "audit_annotations.py": "e0f2c38a1bb6b6d1c733fa20af801445f5b10f527730f0abe304398ff654baec"
+  },
+  "seconds": 592.0144045352936,
+  "rejections": {
+    "dev:no_shared_donor_trajectory": 2,
+    "report:no_shared_donor_trajectory": 27
+  },
+  "split_isolation": true,
+  "paired_donor_identity": true,
+  "storage": "lossless PNG materialized on shared filesystem",
+  "previews": [
+    "/autodl-fs/data/rtmdetr/datasets/bdd_lite_v1_20260917/preview/low_exposure_noise.png",
+    "/autodl-fs/data/rtmdetr/datasets/bdd_lite_v1_20260917/preview/motion_blur.png",
+    "/autodl-fs/data/rtmdetr/datasets/bdd_lite_v1_20260917/preview/resolution_loss.png",
+    "/autodl-fs/data/rtmdetr/datasets/bdd_lite_v1_20260917/preview/rain_streak.png"
+  ],
+  "eval_claim": "development validation; not blind test",
+  "compatibility_smoke": "pending",
+  "canonicalized_legacy_annotation_geometry": 25954,
+  "removed_legacy_raster_empty_annotations": 1
+}

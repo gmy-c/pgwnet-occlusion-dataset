@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the companion manuscript and BDD100K when using this dataset."
+type: dataset
+title: "PGWNet Occlusion Dataset"
+url: "https://github.com/gmy-c/pgwnet-occlusion-dataset"
+authors:
+  - family-names: Gong
+    given-names: Mingyu
+    email: gongmingyu@stu.csust.edu.cn
+  - family-names: Chen
+    given-names: Gengbiao
+  - family-names: Zhang
+    given-names: Jinlai
+  - family-names: Li
+    given-names: Yucheng
+abstract: "BDD100K-derived paired foreground-occlusion validation panel with 300 report targets, 60 development targets, visible-mask annotations and reproducible construction sources."
+keywords:
+  - traffic instance segmentation
+  - controlled occlusion
+  - visible masks
+  - paired evaluation

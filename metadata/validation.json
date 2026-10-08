@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "scope": "Repository code and synthetic protocol tests",
+  "unit_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "historical_runtime_hashes_matched": 7,
+  "legacy_helper_hash_matched": true,
+  "adapter_ast_matches_after_documented_H_endpoint_change": true,
+  "paper_standard_H_upper_inclusive": true,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "opencv-python-headless": "5.0.0.93",
+    "pycocotools": "2.0.11",
+    "Pillow": "12.3.0"
+  },
+  "full_original_source_rebuild_performed": false,
+  "sharing_archive_audited": false,
+  "table_7_rerun": false
+}

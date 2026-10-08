@@ -1,0 +1,46 @@
+{
+  "source": "Supplied manuscript Section 4.4 and Table 7; not independently recomputed",
+  "report_targets": 300,
+  "development_targets": 60,
+  "report_target_view_records": 1200,
+  "image_width": 1280,
+  "image_height": 720,
+  "severity_intervals": {
+    "clean": {
+      "lower": 0,
+      "upper": 0,
+      "upper_inclusive": true
+    },
+    "light": {
+      "lower": 0.1,
+      "upper": 0.25,
+      "upper_inclusive": false
+    },
+    "moderate": {
+      "lower": 0.25,
+      "upper": 0.45,
+      "upper_inclusive": false
+    },
+    "heavy": {
+      "lower": 0.45,
+      "upper": 0.65,
+      "upper_inclusive": true
+    }
+  },
+  "report_category_counts": {
+    "pedestrian": 64,
+    "rider": 17,
+    "car": 61,
+    "truck": 58,
+    "bus": 56,
+    "train": 2,
+    "motorcycle": 22,
+    "bicycle": 20
+  },
+  "report_size_counts": {
+    "small": 136,
+    "medium": 115,
+    "large": 49
+  },
+  "data_archive_status": "author_provided_link_unverified"
+}
