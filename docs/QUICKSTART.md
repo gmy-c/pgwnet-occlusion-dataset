@@ -15,7 +15,7 @@ python tools/verify_provenance.py
 
 ## Use the supplied data
 
-Download [PGWNet_Occlusion_Dataset.zip](https://pan.baidu.com/s/16LGOrJ3Cfab2XgAQDZbw0A?pwd=qpst), using extraction code `qpst`. Locate the directory containing `annotations/`, `manifests/`, `images/` and `partitions.json` after extraction; use that directory for `--root`.
+Download the [dataset archive](https://pan.baidu.com/s/16LGOrJ3Cfab2XgAQDZbw0A?pwd=qpst), using access code `qpst`. Locate the directory containing `annotations/`, `manifests/`, `images/` and `partitions.json` after extraction; use that directory for `--root`.
 
 The tools consume the actual constructor format described in [Data format](DATA_FORMAT.md). The sharing archive has not been inspected during this update. If it has a different layout, adapt the extraction location before running the commands; do not renumber its IDs or substitute a synthetic example manifest.
 

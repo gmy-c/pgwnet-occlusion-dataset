@@ -22,12 +22,12 @@ This repository documents the controlled validation experiment in **Section 4.4*
 
 | Resource | Access |
 | :--- | :--- |
-| Dataset archive | [**PGWNet_Occlusion_Dataset.zip — Baidu Netdisk**](https://pan.baidu.com/s/16LGOrJ3Cfab2XgAQDZbw0A?pwd=qpst) |
-| Extraction code | **`qpst`** |
+| Dataset archive | [**Download Dataset (.zip)**](https://pan.baidu.com/s/16LGOrJ3Cfab2XgAQDZbw0A?pwd=qpst) |
+| Access code | **`qpst`** |
 | Construction and evaluation protocol | Documented below |
 | Dataset construction code | [Occlusion-only entry point](generation_code/build_occlusion_only.py) · [Frozen partitions](generation_code/partitions.json) |
 
-Download the archive through the sharing link and enter `qpst` if prompted. The construction sources, frozen partitions and audit tools are included in this repository.
+Download the dataset archive using the link above. Use access code `qpst` if prompted. The construction sources, frozen partitions and audit tools are included in this repository.
 
 ## Quick start
 
